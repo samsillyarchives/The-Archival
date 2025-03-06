@@ -1,0 +1,11 @@
+body{
+    background-image: url("scribble.JPG");
+    background-size: cover;
+}
+
+#nav{
+    background-color: whitesmoke;
+    text-align:center;
+    text-wrap: wrap;
+    align-content:space-between;
+}
