@@ -3,9 +3,64 @@ body{
     background-size: cover;
 }
 
-#nav{
-    background-color: whitesmoke;
+.sidenav {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* important to it doesn't move */
+    z-index: 1; /* makes it stay at the top */
+    top: 0; /* this is also so it stays at the top */
+    left: 0; /* so it stays left..*/
+    background-color: #ffffff;
+    overflow-x: hidden; /* makes it so its not possible to scroll horizontally*/
+    padding-top: 60px; 
+    transition: 0.5s; /* this is used to like delay transition aka space betwee click and action */
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidenav a:hover { /*changes the color of the options when mouse is hovering on them*/
+    color: #ddaaff;
+  }
+  
+  
+  .sidenav .closebtn { /*this is the little button*/
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  
+  #main { /*makes content go to the right of the navigation bar*/
+    transition: margin-left .5s;
+  }
+  
+  
+  @media screen and (max-height: 450px) { /*changes font and padding to acomodate to a smaller display screen*/
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .bttn{
+    height: 40px;
+    width: 40px;
+  }
+
+  h1{
     text-align:center;
-    text-wrap: wrap;
-    align-content:space-between;
-}
+    font-family:"Chalkduster", "fantasy"; 
+    font-size: 50px;
+  }
+
+  p{
+    text-align:center;
+  }

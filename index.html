@@ -1,16 +1,26 @@
 
 <html> 
 <head> 
-	<title>My Page</title> 
+	<title>The Archival</title> 
 	<link rel="stylesheet" href="style.css">
+   <script src="modify.js"></script>
 </head> 
 <body> 
- <div id ="nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">about</a>
-    <a href="work.html">work</a>
-    <a href="contact.html">contact</a>
- </div>
-	<p>Hello, world!</p> 
+   <div id="mySidenav" class="sidenav"> <!--for organization and calling purposes-->
+      <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a> <!-- this links to javascript file and calls necessary functions-->
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    
+    
+    <span onclick="openNav()"><img class= "bttn"src="menu copy.png" alt=""></span> <!--calls opennav() function when clicked-->
+    
+    <div id="main"> <!--this makes it so all the contents are pushed to the right of the navigation bar-->
+    <h1>♡ Samantha Lopez ♡</h1>
+    <p>silly placeholder text here</p>
+    </div>
+  
 </body> 
 </html>
