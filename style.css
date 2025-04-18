@@ -1,5 +1,6 @@
 body{
     background-color: #E7DED9;
+    overflow-x: hidden;
 }
 
 #navbar {
@@ -8,6 +9,7 @@ body{
     overflow: hidden;
     background-color: #E7DED9;
   }
+
   #navbar img{
     margin-top: 7px;
     align-items: left;
@@ -15,6 +17,7 @@ body{
     height: 60px;
     width: 60px;
   }
+  
   #navbar a {
     float: right;
     display: block;
@@ -37,6 +40,33 @@ body{
   }
 
   #navbar span{
+    font-family: 'Inter';
+    font-weight: bold;
+  }
+
+  #papelpicado img{
+    margin-top: 20px;
+    height: 400;
+    align-items: center;
+    object-fit: cover;
+   
+   
+  }
+
+  #papelpicado{
+    margin-left: -90px;
+    width: 3000;
+    align-self: center;
+  }
+
+  #hellomessage{
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 50px;
+  }
+
+  #hellomessage span{
     font-family: 'Inter';
     font-weight: bold;
   }
