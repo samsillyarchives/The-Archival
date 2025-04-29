@@ -8,6 +8,9 @@ body{
     top: 0;
     overflow: hidden;
     background-color: #E7DED9;
+    margin-right:100px;
+    margin-left: 100px;
+    align-self: center;
   }
 
   #navbar img{
@@ -26,6 +29,7 @@ body{
     padding: 14px;
     text-decoration: none;
     font-family: 'Inter';
+    margin-top:15px;
   }
 
   #navbar c{
@@ -47,15 +51,14 @@ body{
   #papelpicado img{
     margin-top: 20px;
     height: 400;
-    align-items: center;
     object-fit: cover;
-   
+    -ms-flex-align: center;
    
   }
 
-  #papelpicado{
+  #papelpicado{ /* the way that this is formated is not the best and is causing some issues*/
     margin-left: -90px;
-    width: 3000;
+    width: 400%;
     align-self: center;
   }
 
@@ -70,3 +73,78 @@ body{
     font-family: 'Inter';
     font-weight: bold;
   }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 100px;
+    font-family: "inter";
+    font-weight: bolder;
+    color: #3F5A4E;
+  }
+
+  #h1ver2 {
+    font-size: 100px;
+    font-family: "inter";
+    font-weight: bolder;
+    color: #3F5A4E;
+  }
+
+  #hola {
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+  }
+
+  hr.dotted {
+    border-top: 3px dotted #1F1814;
+    margin-top: -60px;
+  } 
+  hr.dotted2 {
+    border-top: 3px dotted #1F1814;
+    margin-top: auto;
+  } 
+
+  #bodytxt {
+    font-family: 'inter';
+    font-size:large;
+  }
+
+  #bodytxt span{
+    font-family: 'inter';
+    font-size: large;
+    font-weight: bold;
+    color: #3F5A4E;
+  }
+
+  iframe{
+    margin-left: 100px;
+    height: 450px;
+    width: 420px;
+  }
+  .margin{
+    margin-top:70px;
+  }
+
+  .edumargin{
+    margin-top: 30px;
+    font-size: 60px;
+  }
+
+  .edutop{
+    margin-top: -10px;
+  }
+
+.softwares {
+  display: flex;
+}
+
+.icons{
+  margin-top: -15px;
+  margin-left: auto;
+  width: 95%;
+  height: 95%;
+}
