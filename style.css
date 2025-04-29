@@ -4,13 +4,14 @@ body{
 }
 
 #navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
     overflow: hidden;
     background-color: #E7DED9;
     margin-right:100px;
-    margin-left: 100px;
+    margin-left: 4%;
     align-self: center;
+    width: 90%;
   }
 
   #navbar img{
@@ -77,6 +78,11 @@ body{
   .column {
     float: left;
     width: 50%;
+  }
+
+  .column2 {
+    float: left;
+    width:50%;
   }
 
   h1 {
@@ -147,4 +153,14 @@ body{
   margin-left: auto;
   width: 95%;
   height: 95%;
+}
+
+#MoirePattern{
+  height: fit-content;
+  width: fit-content;
+}
+
+#P5canvas {
+  margin-left: 100px;
+  margin-top: 50px;
 }

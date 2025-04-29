@@ -7,12 +7,13 @@
         <link rel="icon" type="image/x-icon" href="/Favicon.svg">
         <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
         <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
         
     </head>
 
     <body>
 
-        <div id="navbar">
+        <div id="navbar"> <!--THis is the navigation bar-->
             <c><img src="Top Icon.svg"></c>
             <c><p>Portfolio <br> <span>Samantha López</span></p></c>
             <a href="About Me">About Me</a>
@@ -20,7 +21,7 @@
             <a href="Contacts">Contacts</a>
         </div>
 
-        <div id="papelpicado">
+        <div id="papelpicado"> <!--This is the litte graphic-->
             <d><img src="PapelPicadoGraphic.svg"></d>
             <d><img src="PapelPicadoGraphic.svg"></d>
             <d><img src="PapelPicadoGraphic.svg"></d>
@@ -30,23 +31,16 @@
             <p>Hello, I'm <span>Samantha López</span>:)</p>
         </div>
 
-        <div id="hola">
+        <div id="hola"> <!--This is the about me blurb-->
 
             <div class="column">
             <h1>Hola!</h1>
             <hr class="dotted">
             <p id="bodytxt" class="margin">I’m <span> Sam </span>an artist, engineer, and designer studying Integrated Design & Media at NYU! </p>
             <p id="bodytxt">I enjoy using my creativity and problem-solving skills to create visual and digital experiences.</p>
-            </div>
-
-            <div class="column">
-                <iframe src="https://editor.p5js.org/Samantha.lpz/full/-aqJZwd8O"></iframe>
-            </div>
-        </div>
-
-        <div id="hola">
-            <div class="column">
+            <br><br><br>
                 <hr class="dotted2">
+
                 <h1 class="edumargin">Education</h1>
                 <p id="bodytxt" class="edutop"><span>2024-2028</span><br><br>NYU Tandon School of Engineering<br>Integrated Design & Media B.S.<br>Web Development and Applications Minor</p>
                 <br>
@@ -95,11 +89,22 @@
                   <div>
                         <img class="icons" src="SoftwareIcons/ReaperIcon.svg">
                   </div> 
+
             </div>
             
             <hr class="dotted2">
+            </div>
+        </div>
+
+        <!--Second Column begins here -->
+
+        <div class="column2" id="Moiresketch">
+            <div id="P5canvas" width="400px" height="400px">
+            <!--<iframe src="https://editor.p5js.org/Samantha.lpz/full/-aqJZwd8O"></iframe>
+            <script src="MoirePattern/Moire.html"></script>-->
+            </div>
         </div>
 
     </body>
-
+ <script src="sketch.js"></script>
 </html>
