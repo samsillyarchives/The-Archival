@@ -1,6 +1,7 @@
 let colorArray;
 
 function setup() {
+   frameRate(5);
    let elemente=createCanvas(400, 1300);
     elemente.parent('P5canvas2');
 
@@ -8,6 +9,7 @@ function setup() {
   }
   
   function draw() {
+    
     background(231, 222, 217);
     
    drawCircles(0,0);
