@@ -210,9 +210,26 @@ a:link{
 }
 
 .contactlinks{
-  margin-top: 100px
+  margin-top: 85px
 }
 
 .contactlinks span{
   font-weight: bolder;
+}
+
+#columnprojects {
+  float: left;
+  width: 33.33%;
+}
+
+.rowprojects:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  #columnprojects {
+    width: 100%;
+  }
 }
