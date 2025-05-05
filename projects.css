@@ -1,36 +1,46 @@
-* {box-sizing: border-box}
+.card {
+    --main-color: #e7ded9;
+    --bg-color: #3f5a4e;
+    position: fixed;
+    font-family: 'Inter';
+    width: 270px;
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: var(--bg-color);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px -1.5px #000;
+    margin-left: 20px
+  }
+  
 
-/* Container needed to position the overlay. Adjust the width as needed */
-.container {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
-}
+  .card__img {
+    width: 100%;
+  }
+  
+  .card__title {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-left: -10px
+  }
+  
+  .card__subtitle {
+    color: var(--sub-color);
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 20px -5px #000;
+  }
 
-/* Make the image to responsive */
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container:hover.overlay {
-  opacity: 1;
-}
+  img{
+    max-width: 280px;
+    max-height: 280px;
+    border-radius: 25px;
+    margin-left: 2px;
+  }
