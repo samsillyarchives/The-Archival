@@ -38,9 +38,30 @@
     box-shadow: 0px 0px 20px -5px #000;
   }
 
-  img{
+  .sizea{
     max-width: 280px;
     max-height: 280px;
     border-radius: 25px;
     margin-left: 2px;
+  }
+
+  #columnprojects2 {
+    float: left;
+    width: 50%;
+  }
+  
+  #rowprojects2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .projectpic{
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1f1814;
   }
