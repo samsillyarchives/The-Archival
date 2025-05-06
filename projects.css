@@ -1,18 +1,18 @@
 .card {
     --main-color: #e7ded9;
     --bg-color: #3f5a4e;
-    position: fixed;
+    position: flex;
     font-family: 'Inter';
     width: 270px;
     padding: 25px;
     border-radius: 25px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     gap: 5px;
     background-color: var(--bg-color);
     cursor: pointer;
     box-shadow: 0px 0px 5px -1.5px #000;
-    margin-left: 20px
+    margin-left: 15%;
   }
   
 
@@ -48,8 +48,13 @@
   #columnprojects2 {
     float: left;
     width: 50%;
+    flex-direction: column;
   }
   
+  #rowprojects2{
+    display:  flex;
+  }
+
   #rowprojects2:after {
     content: "";
     display: table;
@@ -65,3 +70,39 @@
     text-decoration: none;
     color: #1f1814;
   }
+
+  #middlecode{
+  margin-left:36%;
+  }
+
+ #drumimg{
+  margin-left: -2%;
+ }
+
+ #tracklistimg{
+  margin-left: -3%;
+ }
+
+#rightcode{
+  margin-left:1%;
+}
+
+#column3{
+  float: right;
+width: 33.33%;
+margin-top: -1%;
+margin-left: 137%;
+}
+
+ #column2{
+  float: right;
+  width: 33.33%;
+  margin-left: 200%;
+  margin-right: -16%;
+  display: flex;
+  margin-top: -177%;
+ }
+
+ #archivalimg{
+  margin-left: -2.5%;
+ }

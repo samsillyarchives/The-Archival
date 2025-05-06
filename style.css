@@ -12,6 +12,7 @@ body{
     margin-left: 4%;
     align-self: center;
     width: 90%;
+    margin-right: 10%; 
   }
 
   #navbar img{
@@ -224,12 +225,7 @@ a:link{
 
 .rowprojects:after {
   content: "";
-  display: table;
+  display: flex;
   clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  #columnprojects {
-    width: 100%;
-  }
+  flex-direction: row;
 }
