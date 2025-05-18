@@ -51,7 +51,7 @@
     flex-direction: column;
   }
   
-  #rowprojects2{
+*#rowprojects2{
     display:  flex;
   }
 
@@ -88,20 +88,108 @@
 }
 
 #column3{
-  float: right;
+position: relative;
+top: 30px; left: 50px;
 width: 33.33%;
-margin-top: -1%;
-margin-left: 137%;
+/*margin-top: -1%;
+margin-left: 37%;*/
 }
 
  #column2{
   float: right;
   width: 33.33%;
-  margin-left: 200%;
-  margin-right: -16%;
-  margin-top: -177%;
+  margin-left: 300%;
+  margin-right: -35%;
+  margin-top: -176%;
  }
 
  #archivalimg{
   margin-left: -2.5%;
  }
+
+ .column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.containerP {
+  position: relative;
+  width: 90%;
+  Height: auto;
+  border-radius: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+  
+}
+
+/* Make the image to responsive */
+.imageP {
+  display: block;
+  width: 90%;
+  height: auto;
+  border-radius: 15%;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  /*background: rgb(63 90 78);
+  background: rgb(63, 90, 78, 0.5);
+  /*background: rgb(239, 185, 205);
+  background: rgb(239, 185, 205, 0.5);*/
+  background: rgb(231, 222, 217);
+  background: rgba(231, 222, 217, 0.7); /* Black see-through */
+  color: #1f1814;
+  width: 90%;
+  transition: .5s ease;
+  opacity:0;
+  /*color: #e7ded9;*/
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.containerP:hover .overlay {
+  opacity: 1;
+}
+
+#Ccentering{
+  margin-left: 3%;
+}
+
+.UnderConst{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+  margin-top: 4%;
+  margin-bottom: 6%;
+}

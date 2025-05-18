@@ -110,9 +110,17 @@ body{
     border-top: 3px dotted #1F1814;
     margin-top: -60px;
   } 
+
   hr.dotted2 {
     border-top: 3px dotted #1F1814;
     margin-top: auto;
+  } 
+
+  hr.dotted3 {
+    border-top: 3px dotted #1F1814;
+    margin-top: 1%;
+    width: 90%;
+    margin-bottom: 2%;
   } 
 
   #bodytxt {
@@ -181,8 +189,9 @@ h2{
   font-family: "inter";
   font-weight: bolder;
   color: #3F5A4E;
-  text-align: center;
-  margin-top: 90px
+  text-align: Left;
+  margin-top: 10%;
+  margin-left: 6%;
 }
 
 #columncontact {
@@ -229,3 +238,7 @@ a:link{
   clear: both;
   flex-direction: row;
 }
+
+/*.rowprojects{
+  display: flex;
+}*/
