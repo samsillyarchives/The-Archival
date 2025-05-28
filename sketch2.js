@@ -1,7 +1,7 @@
 let colorArray;
 
 function setup() {
-   frameRate(5);
+   frameRate(3);
    let elemente=createCanvas(400, 1300);
     elemente.parent('P5canvas2');
 
