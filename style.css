@@ -1,0 +1,258 @@
+body{
+    background-color: #E7DED9;
+    overflow-x: hidden;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: #E7DED9;
+    margin-right:100px;
+    margin-left: 4%;
+    align-self: center;
+    width: 90%;
+    margin-right: 10%; 
+    z-index: 9999;
+  }
+
+  #navbar img{
+    margin-top: 7px;
+    align-items: left;
+    padding-left: 5px;
+    height: 60px;
+    width: 60px;
+  }
+  
+  #navbar a {
+    float: right;
+    display: block;
+    color: #1F1814;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Inter';
+    margin-top:15px;
+  }
+
+  #navbar c{
+    float: left;
+    display: block;
+    color: #1F1814;
+    text-align: left;
+    margin-top: -4px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Inter'; 
+  }
+
+  #navbar span{
+    font-family: 'Inter';
+    font-weight: bold;
+  }
+
+  #papelpicado img{
+    margin-top: 90px;
+    height: 400;
+    object-fit: cover;
+    -ms-flex-align: center;
+   
+  }
+
+  #papelpicado{ /* the way that this is formated is not the best and is causing some issues*/
+    margin-left: -90px;
+    width: 400%;
+    align-self: center;
+  }
+
+  #hellomessage{
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 50px;
+  }
+
+  #hellomessage span{
+    font-family: 'Inter';
+    font-weight: bold;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .column2 {
+    float: left;
+    width:50%;
+  }
+
+  h1 {
+    font-size: 100px;
+    font-family: "inter";
+    font-weight: bolder;
+    color: #3F5A4E;
+  }
+
+  #h1ver2 {
+    font-size: 100px;
+    font-family: "inter";
+    font-weight: bolder;
+    color: #3F5A4E;
+  }
+
+  #hola {
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+  }
+
+  hr.dotted {
+    border-top: 3px dotted #1F1814;
+    margin-top: -60px;
+  } 
+
+  hr.dotted2 {
+    border-top: 3px dotted #1F1814;
+    margin-top: auto;
+  } 
+
+  hr.dotted3 {
+    border-top: 3px dotted #1F1814;
+    margin-top: 1%;
+    width: 90%;
+    margin-bottom: 2%;
+  } 
+
+  #bodytxt {
+    font-family: 'inter';
+    font-size:large;
+  }
+
+  #bodytxt span{
+    font-family: 'inter';
+    font-size: large;
+    font-weight: bold;
+    color: #3F5A4E;
+  }
+
+  iframe{
+    margin-left: 100px;
+    height: 450px;
+    width: 420px;
+  }
+  .margin{
+    margin-top:70px;
+  }
+
+  .edumargin{
+    margin-top: 30px;
+    font-size: 60px;
+  }
+
+  .edutop{
+    margin-top: -10px;
+  }
+
+ .softwares {
+  display: flex;
+}
+
+.icons{
+  margin-top: -15x;
+  margin-left: auto;
+  width: 95%;
+  height: 95%;
+  flex-wrap: wrap;
+}
+
+#MoirePattern{
+  height: fit-content;
+  width: fit-content;
+}
+
+#P5canvas {
+  margin-left: 100px;
+  /*margin-top: 50px;*/
+  width: 400px;
+  height: 400px;
+}
+
+#P5canvas2 {
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 400px;
+  height: 800px
+}
+
+h2{
+  font-size: 50px;
+  font-family: "inter";
+  font-weight: bolder;
+  color: #3F5A4E;
+  text-align: Left;
+  margin-top: 10%;
+  margin-left: 6%;
+}
+
+#columncontact {
+  float: left;
+  width: 50%;
+}
+
+#rowcontact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#contact{
+  font-size: 25px;
+  font-family: "inter";
+  font-weight: bolder;
+  color: #3F5A4E;
+  text-align: center;
+  margin-top: 90px;
+  margin-top: 50px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.contactlinks{
+  margin-top: 85px
+}
+
+.contactlinks span{
+  font-weight: bolder;
+}
+
+#columnprojects {
+  float: left;
+  width: 33.33%;
+}
+
+.rowprojects:after {
+  content: "";
+  display: flex;
+  clear: both;
+  flex-direction: row;
+}
+
+/*.rowprojects{
+  display: flex;
+}*/
+
+.embedweb{
+  align-self: center;
+  width: 85%;
+  margin-left:7%;
+  height: 90%;
+}
+
+.description{
+  margin-left: 7%;
+  margin-bottom: 7%;
+  margin-right: 7%;
+}
