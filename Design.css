@@ -51,6 +51,61 @@ body {
     font-size: 20px;
 }
 
+.wordsgen{
+    color: #1f1814;
+    text-align: left;
+    font-size: 20px;
+}
+
+.wordsgen span{
+  font-weight: bold;
+}
+
+.politicalPosterimg{
+  width: 100%;
+}
+
+.policontainer{
+  margin-right: 5%;
+  margin-left:5%;
+}
+.policontainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.policolumn {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 33.33%;
+}
+
+.right {
+  width: 66.66%;
+  text-align: left;
+}
+
+.leftin {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 66.66%;
+  text-align: left;
+}
+
+.rightin {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 33.33%;
+}
+
+.background{
+  background-color:rgba(63, 90, 78,.1) ;
+  margin-top: 2%;
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .columnDesign {

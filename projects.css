@@ -194,3 +194,35 @@ margin-left: 37%;*/
   margin-top: 4%;
   margin-bottom: 6%;
 }
+
+.words{
+    color: #1f1814;
+    text-align: center;
+    font-size: large;
+    font-family: 'inter';
+    margin-bottom: 4%;
+}
+
+.words span{
+    font-family: 'inter';
+    font-size: large;
+    font-weight: bold;
+    color: #3F5A4E;
+  }
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column{
+    width: 100%;
+  }
+}
+
