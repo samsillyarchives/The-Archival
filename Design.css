@@ -127,6 +127,10 @@ body {
   margin-top: 5%;
 }
 
+.musicmargin{
+  margin-bottom: 37.8%;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .columnDesign {
