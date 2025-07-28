@@ -88,7 +88,7 @@
   }
 
   .album .responsive-container-block.bg {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .album .responsive-container-block.img-cont {
@@ -123,4 +123,11 @@
   .album .img.img-last {
     margin: 0 0 5px 0;
   }
+}
+
+.ytvid{
+  height: 80%;
+  width: 80%;
+  align-content: center;
+  margin-left: 9.5%;
 }
