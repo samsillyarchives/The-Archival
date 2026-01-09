@@ -3,6 +3,7 @@
     <head>
         
         <title>The Archival</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="Assets/Favicon.svg">
         <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
@@ -14,12 +15,22 @@
     <body>
 
         <div id="navbar"> <!--THis is the navigation bar-->
-            <c><img src="Assets/Top Icon.svg"></c>
-            <c><p>Portfolio <br> <span>Samantha López</span></p></c>
-            <a href="contact.html">Contact</a>
-            <a href="projects.html">Projects</a>
-            <a href="index.html">About Me</a>
-           
+            <div class="nav-left">
+                <c><img src="Assets/Top Icon.svg"></c>
+                <c><p>Portfolio <br> <span>Samantha López</span></p></c>
+            </div>
+
+            <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <div id="nav-links">
+                <a href="contact.html">Contact</a>
+                <a href="projects.html">Projects</a>
+                <a href="index.html">About Me</a>
+            </div>
         </div>
 
         <div id="papelpicado"> <!--This is the little graphic-->
