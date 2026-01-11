@@ -126,8 +126,36 @@
 }
 
 .ytvid{
-  height: 80%;
-  width: 80%;
+  height: 90%;
+  width: 90%;
   align-content: center;
-  margin-left: 9.5%;
+  justify-content: center;
+  margin-left: 6%;
+  /*margin-left: 9.5%;*/
+}
+
+.gallery {
+  background: #E7DED9;
+  width: 90%;
+  justify-content: center;
+  margin-left: 5%;
+  
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #E7DED9;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: #E7DED9;
 }

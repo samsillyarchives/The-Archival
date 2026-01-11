@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="projects.css">
         <link rel="stylesheet" href="PhotoFilm.css">
+        <link rel="stylesheet" href="flickity.css">
+        <script src="flickity.pkgd.js"></script>
+
         <link rel="icon" type="image/x-icon" href="Assets/Favicon.svg">
         <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
         <script src="script.js"></script>
@@ -33,7 +36,15 @@
 
         <!--<img src="Assets/UnderConst.svg" class="UnderConst">-->
 
-        <iframe class="ytvid" src="https://www.youtube.com/embed/2E4Ij9FM1Mc?si=8TBFNQwWnFjxbGaD" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+         <div class="gallery-cell, ytvid"><iframe class="ytvid" src="https://www.youtube.com/embed/2E4Ij9FM1Mc?si=8TBFNQwWnFjxbGaD" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+         </div>
+        <div class="gallery-cell, ytvid"><iframe class="ytvid" src="https://www.youtube.com/embed/J_97uKpx_RY?si=UKVD8hIkkUXRnA9E" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+         <div class="gallery-cell, ytvid"><iframe class="ytvid" src="https://www.youtube.com/embed/iYQgEOmDNfM?si=_YstkVahfdNmIbDg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+        </div>
+
     
          <div class="album">
 
